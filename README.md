@@ -37,9 +37,8 @@ The next step in the work was the simultaneous determination of the masses of th
     - battery 
     - solar cells
     - scientific equipment
-Each of the above elements was included in the total mass except for the scientific equipment. Its mass was determined as the difference of the total mass and the sum of the masses of the individual elements.
-	For the given mass of the flying ship, its dimensions and shape, a pre-selected 
-motor, battery and propeller.
+    
+Each of the above elements was included in the total mass except for the scientific equipment. Its mass was determined as the difference of the total mass and the sum of the masses of the individual elements.For the given mass of the flying ship, its dimensions and shape, a pre-selected motor, battery and propeller.
 
 ## Created by Adrian Szklarski, 03.2023
 
