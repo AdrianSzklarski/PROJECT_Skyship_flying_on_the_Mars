@@ -21,6 +21,25 @@ One of the most distinctive features of the Martian surface are the so-called ic
 
 The radius of Mars is about twice that of Earth. The Martian day (the period between successive sunrises) is approx. 38 minutes longer than an Earth day.
 
+# Purpose of the program
+
+1. to determine the type of ship moving in the atmosphere of Mars 
+2. making its mass analysis.
+	
+	At first, the type of flying vehicle was selected taking into account its parameters, i.e. reliability, ease of operation, ease of control, ease of assembly, transportability. 
+It was assumed that the object of research would be an airship. Its mass analysis was carried out based on the total masses of previous missions to Mars and a preliminary estimate of the mass of the flying vehicle derived from the applied Archimedes' law for the known volume of the assumed carrier gas. 
+The next step in the work was the simultaneous determination of the masses of the various components of the airship:
+    - shell
+    - nacelle
+    - horizontal rudders
+    - vertical rudders
+    - engine and propeller
+    - battery 
+    - solar cells
+    - scientific equipment
+Each of the above elements was included in the total mass except for the scientific equipment. Its mass was determined as the difference of the total mass and the sum of the masses of the individual elements.
+	For the given mass of the flying ship, its dimensions and shape, a pre-selected 
+motor, battery and propeller.
 
 ## Created by Adrian Szklarski, 03.2023
 
