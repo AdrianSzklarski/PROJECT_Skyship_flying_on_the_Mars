@@ -18,7 +18,7 @@ body {
 
 nav {
   text-transform: uppercase;
-  transition: background-color 0.7s;
+  transition: background-color 0.4s;
   z-index: 200;
 }
 nav .nav-link:hover {
@@ -52,7 +52,6 @@ header p {
 }
 header .hero-img {
   position: relative;
-  height: 25vh;
   background-image: url("../images/Backgorund_640.jpg");
   background-position: center;
   background-size: cover;
@@ -71,7 +70,7 @@ header .hero-text {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 5.9%;
+  padding: 12%;
   text-align: center;
   color: black;
   z-index: 5;
@@ -97,5 +96,48 @@ footer {
   color: #ddd;
   background-color: #5F432F;
   text-align: center;
-  font-style: 20px;
+  font-size: 10px;
+}
+
+@media (min-width: 320px) {
+  header .hero-img {
+    height: 60vh;
+  }
+  footer {
+    font-size: 10px;
+  }
+}
+@media (min-width: 576px) {
+  header .hero-img {
+    height: 60vh;
+  }
+  footer {
+    font-size: 20px;
+  }
+}
+@media (min-width: 768px) {
+  footer {
+    font-size: 20px;
+  }
+}
+@media (min-width: 992px) {
+  header .hero-img {
+    height: 45vh;
+  }
+  footer {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  header .hero-img {
+    height: 39vh;
+  }
+  footer {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1400px) {
+  footer {
+    font-size: 20px;
+  }
 }/*# sourceMappingURL=main.css.map */

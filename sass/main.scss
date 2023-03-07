@@ -64,7 +64,7 @@ header {
 
     .hero-img {
         position: relative;
-        height: 25vh;
+        // height: 34vh;
         background-image: url('../images/Backgorund_640.jpg');
         background-position: center;
         background-size: cover;
@@ -85,7 +85,7 @@ header {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        padding: 5.9%;
+        padding: 12%;
         text-align: center;
         color: c.$blac-color;
         z-index: 5;
@@ -104,7 +104,7 @@ header {
 }
 
 carousel {
-    .card-text{
+    .card-text {
         font-size: 14px;
         color: c.$blue-color;
     }
@@ -117,5 +117,86 @@ footer {
     color: #ddd;
     background-color: c.$foot-color;
     text-align: center;
-    font-style: 20px;
+    font-size: 10px;
+}
+
+// media break pionts:
+
+// Breakpoint	Class infix	Dimensions
+// X-Small	            None	<576px
+// Small	            sm	    ≥576px
+// Medium	            md	    ≥768px
+// Large	            lg	    ≥992px
+// Extra large	        xl	    ≥1200px
+// Extra extra large	xxl 	≥1400px
+
+@media(min-width: 320px) {
+
+    header {
+        .hero-img {
+            height: 60vh;
+        }
+    }
+
+    footer {
+        font-size: 10px;
+    }
+
+}
+
+@media(min-width: 576px) {
+
+    header {
+        .hero-img {
+            height: 60vh;
+        }
+    }
+
+    footer {
+        font-size: 20px;
+    }
+
+}
+
+@media(min-width: 768px) {
+    footer {
+        font-size: 20px;
+    }
+
+}
+
+@media(min-width: 992px) {
+
+    header {
+        .hero-img {
+            height: 45vh;
+        }
+
+    }
+
+    footer {
+        font-size: 20px;
+    }
+
+}
+
+@media(min-width: 1200px) {
+
+    header {
+        .hero-img {
+            height: 39vh;
+        }
+    }
+
+    footer {
+        font-size: 20px;
+    }
+
+}
+
+@media(min-width: 1400px) {
+    footer {
+        font-size: 20px;
+    }
+
 }
