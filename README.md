@@ -1,5 +1,10 @@
 # Airship flying on Mars
 
+<br>
+<img src="images/MSS.png" alt="Website of Mars Sky Ship">
+<br>
+
+
 **Mars** appears in the sky as a red, star-like point.
 The ancients named this planet after the god of war because the color resembled blood.
 
