@@ -15,7 +15,7 @@ body {
 }
 
 .add-back {
-    background-color: c.$navm-color;
+    background-color: c.$foot-color;
 }
 
 
@@ -64,7 +64,7 @@ header {
 
     .hero-img {
         position: relative;
-        height: 30vh;
+        height: 25vh;
         background-image: url('../images/Backgorund_640.jpg');
         background-position: center;
         background-size: cover;
@@ -115,7 +115,7 @@ footer {
     height: 80px;
     line-height: 80px;
     color: #ddd;
-    background-color: #333;
+    background-color: c.$foot-color;
     text-align: center;
     font-style: 20px;
 }
