@@ -35,7 +35,7 @@ nav .fa-bars {
 }
 nav .navbar-brand {
   font-weight: bold;
-  color: #893811;
+  color: #c03320;
 }
 nav .active {
   color: royalblue;
@@ -52,8 +52,8 @@ header p {
 }
 header .hero-img {
   position: relative;
-  height: 78vh;
-  background-image: url("../images/backgorund_640.jpg");
+  height: 30vh;
+  background-image: url("../images/Backgorund_640.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -71,7 +71,7 @@ header .hero-text {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 18%;
+  padding: 5.9%;
   text-align: center;
   color: black;
   z-index: 5;
@@ -81,8 +81,13 @@ header .maI {
   font-weight: bold;
 }
 header .maII {
-  color: #893811;
+  color: #c03320;
   font-weight: bold;
+}
+
+carousel .card-text {
+  font-size: 14px;
+  color: royalblue;
 }
 
 /* foorer */
