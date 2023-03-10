@@ -70,18 +70,20 @@ header .hero-text {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 12%;
+  padding: 10%;
   text-align: center;
   color: black;
-  z-index: 5;
 }
 header .maI {
-  color: white;
-  font-weight: bold;
-}
-header .maII {
   color: #c03320;
   font-weight: bold;
+  z-index: 5;
+}
+header .sky {
+  display: flex;
+  justify-content: center;
+  margin-top: -36vh;
+  z-index: -1;
 }
 
 carousel .card-text {
@@ -91,8 +93,8 @@ carousel .card-text {
 
 /* foorer */
 footer {
-  height: 80px;
-  line-height: 80px;
+  height: 60px;
+  line-height: 60px;
   color: #ddd;
   background-color: #5F432F;
   text-align: center;

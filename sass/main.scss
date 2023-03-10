@@ -52,6 +52,7 @@ nav {
 }
 
 header {
+    // height: 100vh;
     color: c.$whit-color;
 
     h1 {
@@ -85,20 +86,22 @@ header {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        padding: 12%;
+        padding: 10%;
         text-align: center;
         color: c.$blac-color;
-        z-index: 5;
     }
 
     .maI {
-        color: c.$whit-color;
-        font-weight: bold;
-    }
-
-    .maII {
         color: c.$ora2-color;
         font-weight: bold;
+        z-index: 5;
+    }
+
+    .sky {
+        display: flex;
+        justify-content: center;
+        margin-top: -36vh;
+        z-index: -1;
     }
 
 }
@@ -112,8 +115,8 @@ carousel {
 
 /* foorer */
 footer {
-    height: 80px;
-    line-height: 80px;
+    height: 60px;
+    line-height: 60px;
     color: #ddd;
     background-color: c.$foot-color;
     text-align: center;
